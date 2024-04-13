@@ -1,2 +1,4 @@
 *.parquet
-/MLAudioAI/dist/
+MLAudioAI/dist/
+MLAudioAI/build/
+MLAudioAI/data
