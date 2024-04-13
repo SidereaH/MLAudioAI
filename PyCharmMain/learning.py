@@ -71,28 +71,3 @@ keras.saving.save_model(model,'audio_model.h5')
    # continue == False
 
 
-# while contBool ==True:
-#     # Загрузка аудиофайла
-#     print("Введите название аудио, предварительно вставив его в каталог audioVal проекта")
-#     try:
-#         filename = input()
-#         projPath = "audioVal/" + filename
-#     except FileNotFoundError:
-#         print("Не найден файл")
-#
-#     print(projPath)
-#     audio_file_to_check = projPath
-#
-#     # Преобразование аудиофайла в спектрограмму
-#     spectrogram_to_check = load_and_extract_features(audio_file_to_check)
-#
-#     # Загрузка сохранённой модели
-#     loaded_model = models.load_model("audio_model.h5")
-#
-#     prediction = loaded_model.predict(np.expand_dims(spectrogram_to_check, axis=0))
-#
-#     # Анализ предсказания
-#     if prediction[0][0] > 0.5:
-#         print("Аудиофайл не является дипфейком.")
-#     else:
-#         print("Аудиофайл является дипфейком. ")
