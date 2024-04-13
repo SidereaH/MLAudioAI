@@ -34,18 +34,28 @@ def audioProc(audio_file_to_check):
     prediction = model.predict(np.expand_dims(spectrogram_to_check, axis=0))
 
     if prediction[0][0] > 0.5:
-        print("Аудиофайл не является дипфейком.")
-    else:
-        print("Аудиофайл является дипфейком. ")
-
-    try:
-        y, sr = librosa.load(audio_file_to_check, sr=None)
+        try:
+            y, sr = librosa.load(audio_file_to_check, sr=None)
         # Создание спектрограммы
-        plt.figure(figsize=(10, 4))
-        librosa.display.specshow(librosa.amplitude_to_db(np.abs(librosa.stft(y)), ref=np.max), sr=sr, x_axis='time',
-                             y_axis='log')
-        plt.colorbar(format='%+2.0f dB')
-        plt.title('Спектрограмма ' + audio_file_to_check)
-        plt.show()
-    except Exception as e:
-         print(f"Ошибка при обработке файла {audio_file_to_check}: {e}")
+            plt.figure(figsize=(10, 4))
+            librosa.display.specshow(librosa.amplitude_to_db(np.abs(librosa.stft(y)), ref=np.max), sr=sr, x_axis='time',
+                                    y_axis='log')
+            plt.colorbar(format='%+2.0f dB')
+            plt.title('Спектрограмма. Аудиофайл не является дипфейком')
+            plt.show()
+        except Exception as e:
+            print(f"Ошибка при обработке файла {audio_file_to_check}: {e}")
+    else:
+        try:
+            y, sr = librosa.load(audio_file_to_check, sr=None)
+            # Создание спектрограммы
+            plt.figure(figsize=(10, 4))
+            librosa.display.specshow(librosa.amplitude_to_db(np.abs(librosa.stft(y)), ref=np.max), sr=sr, x_axis='time',
+                                     y_axis='log')
+            plt.colorbar(format='%+2.0f dB')
+            plt.title('Спектрограмма. Аудиофайл является дипфейком')
+            plt.show()
+        except Exception as e:
+            print(f"Ошибка при обработке файла {audio_file_to_check}: {e}")
+
+
