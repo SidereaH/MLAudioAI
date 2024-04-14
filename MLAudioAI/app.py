@@ -19,5 +19,5 @@ def audioProcjs(pathToFile):
     print(pathToFile)
     audioProc(pathToFile)
 
-eel.start("layout.html", size = (600,400))
+eel.start("layout.html", size = (600,500))
 
