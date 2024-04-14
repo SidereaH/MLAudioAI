@@ -1,0 +1,9 @@
+eel
+files
+pyarrow
+pandas
+keras
+numpy
+tensorflow
+scikit-learn
+librosa
