@@ -73,6 +73,7 @@ def callNewNeroModel():
 # Сохранение модели
     keras.saving.save_model(model,f'audio_model{files_count}.h5')
     os.chdir('..')
+
 #while continue == True:
    # continue == False
 
