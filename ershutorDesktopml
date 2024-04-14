@@ -1,0 +1,77 @@
+[33mcommit 345379a0342897b9bdbc4db75d6098bdb4f2fdb3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sun Apr 14 02:54:59 2024 +0300
+
+    final
+
+[33mcommit 76ce88155d7a2f57a607cdb20167533e67312043[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sun Apr 14 02:46:48 2024 +0300
+
+    FinalVersionHack
+
+[33mcommit 3b894e5f188b5ade16765b0fb734ab5ebfe411e7[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sun Apr 14 02:37:59 2024 +0300
+
+    finalHackVersion
+
+[33mcommit d34cb1f811ae2478c10bd7929e1eb37cd2be82a2[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sun Apr 14 02:31:08 2024 +0300
+
+    finalHackVersion
+
+[33mcommit 949c17e7480c7adf5befd9283c2a2963192d205c[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sun Apr 14 01:49:58 2024 +0300
+
+    add interface funct
+
+[33mcommit 514beaeda6fbb265f3d54be4b526edb6eec5807b[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sun Apr 14 00:05:51 2024 +0300
+
+    add interface
+
+[33mcommit 1b0d9b54e09d1fe7f415d8c1ecfbaedb31133c31[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sat Apr 13 23:50:28 2024 +0300
+
+    rework adding files
+
+[33mcommit 69f9a72382fdb96b1e0a495a294c2e46ae0353ae[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sat Apr 13 22:04:37 2024 +0300
+
+    update ignored files
+
+[33mcommit fe4823ab85d9ab4b4a06b42eb37bfd5e1e7dfc58[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sat Apr 13 21:51:32 2024 +0300
+
+    add main.py audioPath
+
+[33mcommit 4daf7fc6ed30692ff6aae523570fb3688d410824[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sat Apr 13 20:59:38 2024 +0300
+
+    add model and audioProccessing
+
+[33mcommit 13548771f2f7eaad9881cac8a90e66f77b7e141c[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sat Apr 13 19:11:18 2024 +0300
+
+    add readme
+
+[33mcommit 369ec2e3bdca6ebf4a71e81a3a313659338fed64[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Sat Apr 13 18:08:53 2024 +0300
+
+    MLModel
+
+[33mcommit 8d2be3dee66ccee84abe7d348847327d4b9a878c[m
+Author: SidereaH <hutornoyaa@gmail.com>
+Date:   Fri Apr 12 23:49:08 2024 +0300
+
+    textcmd
